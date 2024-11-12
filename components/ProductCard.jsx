@@ -16,8 +16,8 @@ function ProductCard({ product }) {
     <>
       <tr>
         <td>{product?.name}</td>
-        <td>{product?.quantity}</td>
         <td>{product?.price}</td>
+        <td>{product?.quantity}</td>
         <td>{product?.id}</td>
         <td>
           <button
