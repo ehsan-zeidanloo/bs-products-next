@@ -4,7 +4,9 @@ import TanstackQueryProvider from "./../providers/TanstackQueryProvider";
 function MyApp({ Component, pageProps }) {
   return (
     <TanstackQueryProvider>
+  
       <Component {...pageProps} />
+      
     </TanstackQueryProvider>
   );
 }

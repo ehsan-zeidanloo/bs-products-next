@@ -61,10 +61,12 @@
 }
 
 .table tbody tr {
+  /* padding: 15px; */
   border-bottom: 1px solid #f2f2f2;
 }
 .table tbody td {
   padding: 10px; /* تنظیم padding */
   /* مرز را برای ستون‌ها تنظیم کنید */
   border-bottom: 1px solid #f2f2f2;
+  text-align: center;
 }

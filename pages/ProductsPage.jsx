@@ -8,6 +8,7 @@ import styles from "../styles/ProductsPage.module.css";
 import AddProductForm from "../components/AddProductForm";
 import SearchBar from "../components/SearchBar";
 import Image from "next/image";
+import AuthProvider from './../providers/AuthProvider';
 
 function ProductsPage() {
   const [serachTerm, setSearchTerm] = useState("");
@@ -36,6 +37,9 @@ function ProductsPage() {
     );
   if (error) return <p>some thing went wrong...</p>;
   return (
+   
+
+ 
     <div dir="rtl" className={styles.container}>
       <div className={styles.serachboxContainer}>
         <SearchBar
@@ -89,6 +93,7 @@ function ProductsPage() {
         />
       ) : null}
     </div>
+    
   );
 }
 
