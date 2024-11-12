@@ -1,0 +1,20 @@
+.searchBox {
+  text-align: right;
+  margin: 15px auto;
+}
+.searchBox input {
+  width: 80%;
+  background-color: #ece9e9;
+  font-family: "vazirmatn";
+  color: #000;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: none;
+}
+.searchBox input::placeholder {
+  font-family: "vazirmatn";
+}
+.searchBox input:focus {
+  border: 1px dashed gray;
+outline: none;
+}
